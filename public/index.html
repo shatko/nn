@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Example</title>
+</head>
+<body>
+  <h1>API Poziv</h1>
+
+  
+  <button id="getELIYears">Dohvati i azuriraj ELI godine</button>
+  <button id="getELIEditions">Dohvati i azuriraj ELI izdanja po godinama</button>
+  <button id="getELIids">Progress + Dohvati i azuriraj ELI -> ID za propise po izdanjima po godinama</button>
+  <button id="getELIidTitles">Dohvati i azuriraj ELI -> ID nazive</button>
+  <button id="getWebPage">Dohvati Web stranicu</button>
+  <!-- <button id="getSpecificAct">2023 : 34 : 596</button> -->
+
+  <div id="progress-container" style="display:none;">
+    <h2>Progress</h2>
+    <p id="progress-text"></p>
+    <ul id="error-list"></ul>
+  </div>
+
+  <pre id="responseOutput"></pre>
+
+  <script type="module" src="./js/test-api.js"></script>
+</body>
+</html>
